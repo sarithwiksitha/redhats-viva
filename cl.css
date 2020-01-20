@@ -1,0 +1,45 @@
+.fmf{
+	display: inline-block;
+	border-radius: 4px;
+	background-color: white;
+	border: 2px solid #000099;
+	color: black;
+	text-align: center;
+	font-family: Arial;
+	font-size: 28px;
+	padding: 20px;
+	width: 250px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.fmf:hover{
+	background-color: #000099;
+	color: white;
+
+}
+
+.fmc{
+	display: inline-block;
+	border-radius: 4px;
+	background-color: white;
+	border: 2px solid #000099;
+	color: black;
+	text-align: center;
+	font-family: Arial;
+	font-size: 28px;
+	padding: 20px;
+	width: 250px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.fmc:hover{
+	background-color: #000099;
+	color: white;
+
+}
+.fac{
+	float: left;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campus Facilities</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="details.css">
+</head>
+<body>
+
+<div class="allfac">
+	<h1>Campus Facilities</h1>
+</div>
+
+<table>
+	<tr>
+		<td>
+			<center>
+   				<img src="fac2.jpg" width="459" height="350">
+			</center>
+			
+			<button type="button" class="collapsible"><h2>Lecture Halls</h2>  </button>
+			<div class="fullcontent">
+				<p>At SIT, we have over 50 Lecture Halls with a capacity of over 200 seats. Together with comepetent Lectureres and state of the art laborataries that can be used to do practical experiments, SIT can provide you an education that is upto international standards and more... </p>
+			</div>
+		</td>
+		<td>
+			<center>
+				<img src="fac3.jpg" width="459" height="350">
+			</center>
+			
+			<button type="button" class="collapsible"><h2>Theater</h2> </button>
+			<div class="fullcontent">
+				<p>Interested in Dramas? Musicals? At the Theater, there are various dramas and shows being performed at least once a week by the enthusiastic students of the drama and music clubs. Love Dancing? There are dance performances and shows being held every month or so, and on special occassions, you can also invite famous musicians and hold shows in the theater with the supervision of the senior students. So have a great time, and enjoy the show!</p>
+			</div>
+		</td>
+		<td>
+			<center>
+				<img src="fac5.jpg" width="459" height="350">
+			</center>
+			<button type="button" class="collapsible"><h2>Library</h2></button>
+			<div class="fullcontent">
+				<p> The Library...the repository of knowledge. Ranging from fiction to non-fictional books, to auto-biographies of great men and women of the past, and to books about various subjects such as Computer Technoligy, Agriculture, Mathematics, Engineering, etc. Students have a few restrictions when entering the Library such as that they cannot enter with their bags. A seperate compartment is provided to keep you bags when entering the library. Keep you Student ID cards with you at all times when entering and exiting the library. And always, ALWAYS, BE QUIET and do not disturb the others when in the library.</p>
+			</div>			
+		</td>
+		<tr>
+		<td>
+			<center>
+				<img src="fac4.jpg" width="459" height="350">
+			</center>
+			<button type="button" class="collapsible"><h2>Students' Study Room</h2></button>
+			<div class="fullcontent">
+				<p>
+					The Students' Study Room was built with the sole purpose of serving as a quiet place for the students to study and do their projects. Here, Students can relax and do their lecture studies leisurely, have club meetings or have project discussions without disturbances. 
+				</p>
+			</div>
+		</td>
+		<td>
+		  <center>
+			<img src="fac7_1.jpg" width="459" height="350">
+		  </center>
+		  <button type="button" class="collapsible"><h2>Students' Lounge Area</h2></button>
+		  <div class="fullcontent">
+		  	<p>Students can relax and hang out in the students' Lounge area after the lectures. Play games with your friends or play a video game with your phone or computer while waiting for the next lecture. Or read a book- whatever helps you realx and enjoy a quick break.</p>
+		  </div>
+		</td>
+		<td>
+			<center>
+				<img src="fac6.jpg" width="459" height="350">
+			</center>
+			<button type="button" class="collapsible"><h2>Student Dormitory</h2></button>
+			<div class="fullcontent">
+				<p>The Students' Dormitory is on a seprate building within the campus. Female Dormitories are within the campus while Male Dormitories are outside the campus. But without distinction both dormitories possess state of the art facilities and a tight security that makes living in the dormotories both a safe and a comfortable experience. Students can request single rooms, but most of the time , they are provided double rooms. The Students can pay at the start of the semester, with Rs.50,000 for a semester.</p>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<center>
+				<img src="lab.jpg" width="459" height="300">
+			</center>
+			<button type="button" class="collapsible"><h2>Computer Labaratory</h2></button>
+			<div class="fullcontent">
+				<p>With state of the art facilities and equipments, students can now do various practicals and projects in the computer labs within the campus. Computer labaratories are opened from 9.00 am and closes at 11.00pm. During lab sessions, students can ask questions from the lab instructors and get their advice for various projects.</p>
+			</div>
+		</td>
+		<td>
+			<center>
+				<img src="fac9.jpg" width="456.55" height="300">
+			</center>
+			<button type="button" class="collapsible"><h2>Campus Cafeteria</h2></button>
+			<div class="fullcontent">
+				<p>From breakfast, brunch, to lunch and even dinner. Students can enjoy a full three courses of meals. Along with local food specialties to fast foods, with refeshing beverages, you can have a hearty meal with your friends.<i> Bon Appétit!</i> </p>
+			</div>
+		</td>
+		<td>
+			<center>
+				<img src="gym2.jpg" width="460">
+			</center>
+			<button type="button" class="collapsible"><h2>Recreation Center- Gym</h2></button>
+			<div class="fullcontent">
+				<p>To have a healthy life, exercising is necessary. Even for students, exercising is a great way to start the day, refreshed and energized. So, quickly head to the Recreational Center. From indoor swimming pools, to tennis courts and as well as a gym. With state of the art equipments and faciities, this is one experience that you don't want to miss!</p>
+			</div>
+		</td>
+	</tr>
+</table>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
+</html>

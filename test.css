@@ -1,0 +1,76 @@
+.linkspart
+{
+	width:auto;
+	height:35px;
+	margin-top:5px;
+	background-color:rgb(12,100,198);
+	
+}
+
+.linkspart a
+{
+	color:rgb(245,246,251);
+	text-decoration:none;
+}
+
+.linkspart a:hover
+{
+	background-color:rgb(245,246,251);
+	color:rgb(12,100,198);
+}
+
+.bodypart
+{
+	width:auto;
+	height:500px;
+	border-style:groove;
+	margin-top:30px;
+	
+}
+
+.bodypart .imagepart
+{
+	width:500px;
+	height:500px;
+        background-image:url('tech.jpg');
+        background-repeat:no-repeat;
+	display:inline-block;
+
+}
+
+
+.bodypart .newspart
+{
+	width:auto;
+	height:500px;
+	
+	float:right;
+}
+
+.bodypart .newspart h1
+{
+	margin-left:auto;
+
+}
+
+.bodypart .newspart .news
+{
+	width:700px;
+	height:200px;
+	text-align: justify;
+	
+}
+
+.footerpart
+{
+	width:auto;
+	height:auto;
+	margin-top:5px;
+	background-color:#006666;
+	border-style:groove;
+	font-size: 20px;
+	color: #00ffcc;
+	font-family: Calibri;
+	font-style: normal;
+}
+	

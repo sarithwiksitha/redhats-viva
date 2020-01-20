@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+<style type="text/css">
+	
+body
+{
+	background-color: powderblue;
+}
+
+h1
+{
+	color: blue;
+	text-align: center;
+}
+
+</style>
+
+	
+</head>
+
+<body>
+
+<h1>ENQUIRY FORM</h1>
+
+<h4>
+	Did you want to apply SIT?<br>
+	Please fill out the form below. We will get back to you with relevant course information, as well as how you can apply to the programme and faculty of your choice.
+</h4>
+<form action="/action_page.php">
+  Full_Name:<br>
+  <input type="text" name="Full_Name">
+  <br><br>
+  Birthday:<br>
+  <input type="date" name="Birthday">
+  <br><br>
+  NIC:<br>
+  <input type="text" name="NIC" maxlength="10" >
+  <br><br>
+  Telephone:<br>
+  <input type="tel" name="Telephone" pattern="[0]{3}-[0-9]{3}-[0-9]{4}" maxlength="10">
+  <br><br>
+  Address:
+  <br>
+  <textarea name="Address" rows="10" cols="30">
+  </textarea>
+  <br><br>
+  Email:<br>
+  <input type="email" name="Email">
+<br><br>
+  Faculty:<br>
+  <select name="Faculty">
+  <option value="com">Faculty of Computing</option>
+  <option value="bis">Faculty of Business</option>
+  <option value="eng">Faculty of Engineering</option>
+</select>
+<br><br>
+  Programme:<br>
+  <select name="Programme">
+  <option value="c1">Bsc Business Information System in UGC</option>
+  <option value="c2">Bsc(Hons) Computer Networks in UGC</option>
+  <option value="c3">Bsc(Hons) Software Engineering in UGC</option>
+  <option value="c4">Bsc(Hons) Computer Networks in Monash university</option>
+  <option value="c5">Bsc(Hons) Software Engineering in Monash university</option>
+  <option value="c6">Bsc(Hons) Cyber Security in Monash university</option>
+  <option value="c7">Bachelor of Information Technology in Princeton university</option>
+  <option value="b1">Bsc(Hons) Logistics & Transport in UGC</option>
+  <option value="b2">BMgt.(Hons) Supply Chain Management in UGC</option>
+  <option value="b3">BMgt.(Hons) Tourism and Hospitality Management in UGC</option>
+  <option value="b4">Bsc(Hons) Business Managment in UGC</option>
+  <option value="b5">Bsc(Hons) Business Managment in Monash university</option>
+  <option value="b6">Bsc(Hons) Accounting and finance in Monash university</option>
+  <option value="e1">Bsc(Hons) Electronic and Telecommunication Engineering in UGC</option>
+  <option value="e2">Bsc(Hons) Electronic Engineering in UGC</option>
+  <option value="e3">Bsc(Hons) Mechanical Engineering in UGC</option>
+</select>
+<br><br>
+  <input type="checkbox" name="robot" value="robot">I'm not a robot
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form> 
+
+
+
+</body>
+
+</html>

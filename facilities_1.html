@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIT Facilities</title>
+	<link rel="stylesheet" type="text/css" href="fac.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="header" style="text-align: center;">
+    <h2>Campus Life</h2>
+    <p>Click on the Images Below:</p>
+</div>
+
+<div class="satnav">
+<div class="row">
+
+	<div class="column">
+		<img src="HR.jpg" alt="Campus Life" style="width: 100%" onclick="myFunction(this);">
+	</div>
+	<div class="column">
+		<img src="gym2.jpg" alt="Recreation Center-Gymnasium" style="width: 100%" onclick="myFunction(this);">
+	</div>
+	<div class="column">
+		<img src="fac8.jpg" alt="Campus Entrance" style="width: 100%" onclick="myFunction(this);">
+	</div>
+	<div class="column">
+		<img src="L.jpg" alt="Library Facilities" style="width: 100%" onclick="myFunction(this);">
+	</div>
+</div>
+</div>
+
+<div class="container">
+	<span onclick="this.parentElement.style.display='none'" class="closebutton">&times;</span>
+	<img id="expandedImg" style="width: 100%">
+	<div id="imgTxt"></div>
+</div>
+
+<script>
+	function myFunction(imgs) {
+		var expandImg=document.getElementById('expandedImg');
+		var imgText=document.getElementById('imgTxt');
+		expandImg.src=imgs.src;
+		imgText.innerHTML=imgs.alt;
+		expandImg.parentElement.style.display="block";
+	}
+
+</script>
+<br><br><br><br>
+<table>
+	<tr>
+		<td colspan="3">
+	<div id="leftbox">          
+	    <h1 align="center">
+	    	Facilities
+	    </h1>
+	      <center>
+		    <img src="13.jpg" width="75%">
+	      </center>
+
+	      <center>
+	      	<button class="fmf" name="faci" onclick="window.location.href='Find Out More.html';">Find Out More</a>
+	      	</button>
+	      </center>
+    </div>
+    </td>
+    <td>
+    </td>
+    <td width="30%">
+    <div id="rightbox">
+    	<h1 align="center">WHAT IS CAMPUS LIFE?</h1>
+    	<br> 
+    	<p align="justify">
+    		Campus life is the overall aspect of a university undergraduate's life, meaning, that is goes beyond the academic aspect of a student's life. 
+    	</p>
+  <p> 
+  	 
+  	   <img src="12.jpg" width="75%">
+  	 
+  	<br>
+  We, at SIT campus,provide various facilities for our students so that they can have an immersive campus experience. Provided with state of the art facilities, we have all that it takes for our students to succeed both in life and in their academic careers.
+  </p>
+    <br>
+</div>
+</td>
+</tr>
+</table>
+<div class="footer">
+	<h2 align="center">Affiliated Universities :</h2>
+	<table>
+		<tr>
+			<td colspan="4">
+				<center>
+					<img src="princeton.png" style="width: 100%">
+				</center>
+		    </td>
+		    <td>	
+		    </td>
+		    <td>
+		    	<center>
+		    		<img src="logo2.png" style="width: 50%">
+		    	</center>	
+		    </td>
+		    <td>
+		    	<center>
+		    		<img src="UGC.jpg" style="width: 60%">
+		    	</center>
+		    </td>	
+		</tr>
+    </table>
+</div>
+</body>
+</html>

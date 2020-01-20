@@ -1,0 +1,630 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+body{
+color:black;
+background-color:lightblue;
+font-size: 25px;
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+text-align:center;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+background-color:blue;
+font-size:75px;
+text-align:center;
+}
+
+h2{
+background-color:green;
+text-align:center;
+padding:30px;
+font-size:30px;
+}
+h2.1{
+background-color:green;
+text-align:center;
+padding:30px;
+font-size:25px;
+}
+
+u{
+text-decoration:underline;
+}
+ul.1{
+margin-left:35px;
+list-style-type:square;
+}
+
+
+p.r{
+font-size:40px;
+color:black;
+}
+p.f{
+
+font-weight:bold;
+}
+
+h.c1{
+background-color:black;
+text-align:center;
+font-size:30px;
+}
+
+ul{
+background:#ff9999;
+padding:20px;
+margin-left:100px;
+margin-right:100px;
+color:black;
+}
+ul li{
+background:#cce5ff;
+padding:5px;
+margin-right:200px;
+margin-left:200px;
+color:black;
+}
+p.o{text-align:center;
+background-color:white;
+font-size:40px;
+font-style:strong;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+ width: 75%;
+ margin-left:180px;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:500% for full page content) */
+.tabcontent {
+  color: black;
+font-style:ariel;
+  display: none;
+  padding: 50px 20px;
+padding-left-right:300px;
+padding-color:gray;
+  height: 300%;
+font-family:serif;
+ 
+width-left:50%;
+}
+
+#Course1{background-color: red;}
+#Course2 {background-color: green;}
+#Course3 {background-color: blue;}
+#Course4 {background-color: orange;}
+
+#BSC. (Hons) Logistics & Transport{background-color: red;}
+#Bsc.(Hons)in Supply Chain Management {background-color: green;}
+#Bsc.(Hons)in Tourism &Hospitality Management {background-color: blue;}
+#Bsc.(Hons)in Business Managment {background-color: orange;}
+ 
+.container{
+position:relative;
+text-align:center;
+color:white;
+font-size:50px;
+}
+.centerd{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+
+
+p.d{
+background-color:black;
+color:white;
+text-align:center;
+font-size:25px;
+width:25;
+}
+table,th,td{
+border:1px solid black;}
+th,td{
+padding:5px;
+text-align:left;
+}
+p.m{
+background-color:lightblue;
+color:blue;
+text-align:center;
+font-size:30;
+}
+ p.i{
+background-color:pink;
+color:brown;
+
+}
+p.e{
+background-color:black;
+color:white;
+text-align:center;
+font-size:35px;
+width:25;
+} 
+h4{
+background-color:yellow;
+text-align:center;
+padding:50px;
+font-size:50px;
+}
+ 
+input[type=text], select{
+  width: 100%;
+  padding:25px;
+border:1px solid #ccc;
+border-radius:4px;
+resize:vertical;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 18px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color:#e0f7fa;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+ 
+    <h1>UGC APPROVED & SIT OFFERED COURSES </h1>
+   
+
+ 
+
+
+<h2 class="1">FACULTY OF BUSINESS</h2>
+
+<ul><strong>
+<li>Course -1-->Bsc.(Hons)Logistics & Transport</li>
+<li>Course -2-->Bsc.(Hons)in Supply Chain Management</li>
+<li>Course -3-->Bsc.(Hons)in Tourism &Hospitality Management</li>
+<li>Course -4-->Bsc.(Hons)in Business Managment</li>
+</strong>
+</ul>
+<p class="o">CLICK ON ANY COURSE TAB FOR GET MORE INFORMATION</p>
+
+<button class="tablink" onclick="openPage('BSC. (Hons) Logistics & Transport ', this , 'red')">BSC. (Hons) Logistics & Transport</button>
+<button class="tablink" onclick="openPage('Bsc.(Hons)in Supply Chain Management', this, 'green')" >Bsc.(Hons)in Supply Chain Management</button>
+<button class="tablink" onclick="openPage(' Bsc.(Hons)in Tourism &Hospitality Management', this, 'blue')">Bsc.(Hons)in Tourism &Hospitality Management </button>
+<button class="tablink" onclick="openPage('Bsc.(Hons)in Business Managment ', this, 'orange')">Bsc.(Hons)in Business Managment </button>
+
+ <div id="BSC. (Hons) Logistics & Transport " class="tabcontent">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p class="r">BSC. (Hons) Logistics & Transport</p>
+
+
+<br>
+ <u>Year 1</u><br><br><br></u>                                                                                                                                                                        
+                                                                                                    
+                       <li>English for Business I</li>
+                     <li>Introduction to Transport</li>
+                       <li>Mathematics for Business I</li>
+                      <li> IT for Business</li>
+                     
+
+  <li>Financial and Cost Accounting</li>
+  <li>Business Statistics</li>
+  <li>Introduction to Law</li>
+
+  <li>English for Business II</li>
+  <li>Mathematics for Business II</li>
+</ul>
+<br>
+<u>Year 2</u><br><br><br>
+
+ <li>Financial Management</li>
+ <li>Intermediate Economics</li>
+ <li> Management Information Systems</li>
+Management Information Systems Transport and Logistics Policy</li>
+
+
+ <li>Shipping Management</li>
+ <li>E-Commerce</li>
+ <li>Transport Economics</li>
+<li>Human Resource Management</li>
+</ul>
+<br>
+ 
+<u>Year 3</u><br><br><br>
+
+ <li>Project Management</li>
+<li>Airport Planning and Management</li>
+<li>Econometrics</li>
+ <li>Marketing Management</li>
+ <li>Transport Contract and Regulations</li>
+</ul>
+<br>
+ 
+<u>Year 4</u><br><br><br>
+
+ <li>Modelling in Transport and Logistics</li>
+ <li>Inventory and Warehouse Management</li>
+ <li>Foreign Trade Insurance</li>
+ <li>Strategic Supply Chain Management</li>
+<li>Strategic Management</li>
+</ul>
+
+
+<br>
+<p class="f" >COURSE FEES</p>
+Year 1- LKR 4000,00<br>
+Year 2- LKR 450,000 <br>
+Year 3-LKR 500,000 <br>
+Year 4-LKR 600,000 <br></p>
+<br>
+
+
+<p class="f" >ENTRY REQUIREMENTS</p>
+<p >G. C. E. A/L Any Stream 3S passes (Local) or <br>Any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edxcel/Cambrige with three passes in any stream.
+<br>
+Fluent in English Language</p>
+
+
+
+
+<br>
+<p class="f" >JOB  OPPORTUNITIES</p>
+<p>In every organization, job opportunities await in the Transportation and Logistics area. In spite of the fact that the company is private or public, the logistics and transport sector plays a major role. The successful candidates will receive high remuneration and top management positions in many organizations.<br><br>
+
+This degree offers you job opportunities as management executives with;<br>
+
+Airports & Seaports<br>
+Logistics Companies<br>
+Multimodal Transportation Companies<br>
+Shipping Companies<br>
+Freight Forwarding Companies<br>
+Freight Forwarding Companies<br>
+
+
+
+</div>
+<div id="Bsc.(Hons)in Supply Chain Management" class="tabcontent">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p class="r">Bsc.(Hons)in Supply Chain Management</p>
+  <br>
+
+<u>Year 1</u><br><br><br></u>
+
+<li> BSCM1301-Introduction to Transportation</li>
+<li>BSCM1202-English for Business I</li>
+<li>BSCM1203-Business Mathematics I</li>
+<li>BSCM1308-Business Statistics</li>
+<li>BSCM1309-Business Law</li>
+<li>BSCM1210-Financial and Cost Accounting</li>
+<li>BSCM1211-Business Mathematics II</li>
+<li>BSCM1212-English for Business II</li>
+</ul>
+<br>
+
+<u>Year 2</u><br><br><br>
+
+<li>BSCM2301-Legal Aspects of Carriage</li>
+<li>BSCM2302-Maritime Transport</li>
+<li>BSCM2303-Air Transport</li>
+<li>BSCM2307-Management Information Systems for Supply Chains</li>
+<li>BSCM2408-Port Management & Operations</li>
+<li>BSCM2409-Procurement Management</li>
+<li>BSCM2210-Quality Management</li>
+<li>BSCM2311-Marketing Management</li>
+</ul>
+<br>
+
+<u>Year 3</u><br><br><br>
+
+<li>BSCM3207-Customs and Commodity Inspections Operations</li>
+<li>BSCM3208-Transport Planning and Logistics management</li>
+<li>BSCM3209-Organizational Behavior</li>
+<li>BSCM3210-Elements of Taxation</li>
+<li>BSCM3211-Insurance & Risk Management</li>
+<li>BSCM3312-Transport Contracts & Regulations</li>
+ <li>BSCM3214-Sustainable Supply Chains</li>
+<li>BSCM3215-Airport Planning and management</li>
+<li>BSCM3216-Humanitarian Logistics</li>
+
+</ul>
+<br>
+
+
+
+
+<u>Year 4</u><br><br><br>
+ <li>BSCM4201-Research Design & Presentation</li>
+<li>BSCM4202-Strategic Management</li>
+<li>BSCM4303-Supply Chain Project Management</li>
+ <li>BSCM4506-Industrial Training</li>
+<li>BSCM4607-Dissertation</li>
+<li>BSCM2412-Inventory & Warehouse Management</li>
+<li>BSCM3206-Airline Business Management</li>
+ </ul>
+<br>
+
+<p class="f" >COURSE FEES</p>
+ LKR 2000,00<br>
+ LKR 200,000 <br>
+LKR 300,000 <br>
+ LKR 400,000 </p>
+<br>
+
+<p class="f"  >ENTRY REQUIREMENTS</p>
+G. C. E. A/L Any Stream 3S passes (Local) or <br>Any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edxcel/Cambrige with three passes in any stream.
+<br>
+Fluent in English Language</p><br>
+
+<p class="f" >JOB  OPPORTUNITIES</p>
+<p >In every organization, job opportunities await in the Supply Chain Management area. <br><br>
+This degree offers you job opportunities as management executives with;<br>
+Manufacturing organization<br>
+Services and marketing firms<br>
+Airports & Seaports<br>
+Research Organisations</p>
+</div>
+
+<div id=" Bsc.(Hons)in Tourism &Hospitality Management" class="tabcontent">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p class="r">Bsc.(Hons)in Tourism &Hospitality Management</p>
+<br>
+
+<u>Year 1</u><br><br><br></u>
+<li>THM 11013-Introduction to Tourism and Hospitality Indust</li>
+ <li>THM 11023-Management Process and practice</li>
+ <li>THM 11032-Micro Economics</li>
+   <li>THM 12093-E Tourism</li>
+<li>THM 12103-Tourism Legislations and Insurance Policies</li>
+<li>THM12112-Basics of Tourism Marketing</li>
+<li>THM 12123-Front Office Management</li>
+<li>THM 12132-Accounting for Tourism</li>
+<li>THM 12142-12103</li>
+<li>Tourism Legislations and Insurance Policies-THM 12112</li>
+<li>Basics of Tourism Marketing-THM 12123</li>
+</ul>
+<br>
+
+
+<u>Year 2</u><br><br><br>
+
+<li>THM 21012-Typologies of Tourism</li>
+<li>THM 21023-Housekeeping and Accommodation Operations</li>
+<li>THM 21032-Entrepreneurship Development for Tourism</li>
+<li>THM 21043-Tourism Economics</li>
+<li>THM 21053-Facilities Operations Management</li>
+<li>THM 21062-Management accounting for Tourism</li>
+<li>THM 21071 / THM 21081-Social Etiquette for Tourism ~OR~ Psychology and Business Counselling</li>
+ <li>THM 22093-Tourism Destination Management</li>
+<li>THM 22102-Consumer Behavior For Tourism</li>
+<li>THM 22113-Kitchen Operations</li>
+<li>THM 22123-Food and Beverage Management</li>
+<li>THM 22152-Industry Training – 100 hours</li>
+</ul>
+<br>
+
+<u>Year 3</u><br><br><br>
+<li>THM 31013-Tourism Planning and Development</li>
+<li>THM 31023-International Tourism Marketing</li>
+<li>THM 31033-Event Management</li>
+<li>THM 31043-Catering Technology and Management</li>
+ <li>THM 32073-Business Plan Development</li>
+<li>THM 32083-Project Report</li>
+<li>THM 32093-Industrial Training – 300 hrs</li>
+<li>THM 32103-Understanding Cruise and Tourism</li>
+<li>THM 32113-Basics of Coastal and Ocean Management</li>
+<li>THM 32123-Cruise Ship Tourism</li>
+<li>THM 32133-Cruise Operations Management – I</li>
+</ul>
+<br>
+
+
+<u>Year 4</u><br><br><br>
+<li>THM 32143-Cruise passenger Behavior and Customer Services</li>
+<li>THM 32152-Essential Skills at Sea</li>
+<li>THM 3216-Research Methodology</li>
+<li>THM 41083-Airline Geography and Application</li>
+<li>THM 41093-Travel Documents and Formalities</li>
+<li>THM 41102-Inbound Tours and Tour Management</li>
+<li>THM 41112-Air Tickets and IATA BSP</li>
+<li>THM 41122-Ticketing & Travel Logistics</li>
+<li>THM 41132-Facility Management in Events</li>
+</ul>
+<br>
+
+
+<p class="f" >COURSE FEES</p>
+Year1- LKR 6000,00<br>
+ Year2- LKR 600,000 <br>
+ Year3-LKR 600,000 <br>
+ Year4-LKR 600,000 <br></p>
+
+<p class="f" >ENTRY REQUIREMENTS</p>
+<p > Those who have passed GCE A/L examination with three (03) passes in any Scheme or any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edexcel/Cambridge with three (03) passes
+<br>
+Fluent in English Language</p>
+
+<p class="f"  >JOB  OPPORTUNITIES</p>
+<p >
+This degree offers you job opportunities as management executives with;<br>
+Travel companies and Tour operators<br>
+Event management<br>
+Manufacturers and suppliers of hospitality equipment<br>
+</p>  
+</div>
+
+<div id="Bsc.(Hons)in Business Managment " class="tabcontent">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <p class="r">Bsc.(Hons)in Business Managment </p>
+
+
+<u>Year 1</u><br><br><br></u>
+<li>English for Business I</li>
+                      <li>Management Process and Organization</li>
+                    <li> Industrial Psychology & Organizational Behaviour</li>
+                    <li> Rewards Management</li>
+                   <li>  Performance Management</li>
+                     <li>Industrial Relations and Labour Law</li>
+                     <li>Strategic Human Resource Management & Functional Management</li>
+<li>Human Resource Planning</li>
+<li>Business Statistics</li>
+<li>Financial and Cost Accounting</li>
+<li>Organizational Development</li>
+ <li>Business Communication for HR Professionals</li>
+<li>English for Business II</li>
+<li>Labour Market Analysis</li>
+</ul>
+<br>
+
+<u>Year 2</u><br><br><br>
+
+
+<li>Business Project & Industrial Training</li>
+<li> Continuous Professional Development</li>
+<li>Human Resource Accounting</li>
+<li>Contemporary Issues in HRM</li>
+<li>Organizational Development</li>
+ <li>Industrial Law And Industrial Relations</li>
+<li>Operations Management</li>
+<li>Warehousing, And Inventory Control Management</li>
+<li>Industrial Marketing</li>
+<li>Introduction To Research Methods</li>
+</ul>
+<br>
+
+<u>Year 3</u><br><br><br>
+<li>Enterprise Resource Planning (Erp)</li>
+<li>Transportation Decision Analysis</li>
+<li>Demand Management</li>
+<li>Continuous Professional Development</li>
+ <li>Individual Research</li>
+</ul>
+<br>
+
+<u>Year 4</u><br><br><br>
+ <li>Materials Management</li>
+<li>Operations Research Practices</li>
+ <li>Cultural Change & Professional Development</li>
+<li>Employment Law</li>
+<li>Strategic Human Resource Management</li> 
+<li>HRM Project </li>
+</ul>
+<br>
+ 
+ <p class="f"  >COURSE FEES</p>
+<p >Year1- LKR 6000,00<br>
+Year2- LKR 6000,00<br>
+Year3- LKR 6000,00<br>
+Year4-LKR6000,00<br>
+</p>
+<p  class="f" >ENTRY REQUIREMENTS</p>
+<p >Full Time<br>
+ Successful completion of Foundation Programme for Bachelor’s Degree OR<br>
+ Completion of GCE A/L examination<br>
+Part Time<br>
+ 3 years of working experience with minimum 3 passes in the G C E Advanced level<br>
+ 5 years of working experience completion of G C E Ordinary level<br>
+Fluent in English Language</p><br>
+
+<p class="f"  >JOB  OPPORTUNITIES</p>
+<p >In every organization, job opportunities await in the business managment area. In spite of the fact that the company is private or public, the business managment ector plays a major role. The successful candidates will receive high remuneration and top management positions in many organizations.<br><br>
+This degree offers you job opportunities as management executives with;<br>
+ Logistics Companies<br> 
+Shipping Companies<br> 
+Freight Forwarding Companies<br>
+Research Organisations</p>  
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on
+it
+document.getElementById("defaultOpen").click();
+</script><br><br><br><br><br><br>
+
+
+    </body>
+</html>

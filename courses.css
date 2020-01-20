@@ -1,0 +1,32 @@
+body {
+  background-color: lightskyblue;
+}
+  .column {
+  float: left;
+  width: 33.33%;
+
+}
+.row:after {
+  content: "column";
+  display: table;
+  clear: both;
+}
+h1{font-family: "comic sans ms", Times, serif;
+}
+
+
+div.a {
+  text-align: left;
+  font-family: "comic sans ms", Times, serif;
+}
+
+div.b {
+  text-align: center;
+ font-family: "comic sans ms", Times, serif;
+
+}
+
+div.c {
+  text-align: right;
+  font-family: "comic sans ms", Times, serif;
+} 

@@ -1,0 +1,394 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+body{
+color:black;
+background-color:lightblue;
+font-size: 25px;
+}
+* {
+  box-sizing: border-box;
+}
+ 
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+text-align:center;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+background-color:blue;
+font-size:75px;
+text-align:center;
+}
+
+h2{
+background-color:green;
+text-align:center;
+padding:30px;
+font-size:30px;
+}
+h2.1{
+background-color:green;
+text-align:center;
+padding:30px;
+font-size:25px;
+}
+
+u{
+text-decoration:underline;
+}
+ul.1{
+margin-left:35px;
+list-style-type:square;
+}
+
+
+p.r{
+font-size:40px;
+color:black;
+}
+p.f{
+
+font-weight:bold;
+}
+
+h.c1{
+background-color:black;
+text-align:center;
+font-size:30px;
+}
+
+ul{
+background:#ff9999;
+padding:20px;
+margin-left:100px;
+margin-right:100px;
+color:black;
+}
+ul li{
+background:#cce5ff;
+padding:5px;
+margin-right:200px;
+margin-left:200px;
+color:black;
+}
+p.o{text-align:center;
+background-color:white;
+font-size:40px;
+font-style:strong;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+ width: 75%;
+ margin-left:180px;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:500% for full page content) */
+.tabcontent {
+  color: black;
+font-style:ariel;
+  display: none;
+  padding: 50px 20px;
+padding-left-right:300px;
+padding-color:gray;
+  height: 300%;
+font-family:serif;
+ 
+width-left:50%;
+}
+
+#Course1{background-color: red;}
+#Course2 {background-color: green;}
+#Course3 {background-color: blue;}
+#Course4 {background-color: orange;}
+
+#BSC. (Hons) Logistics & Transport{background-color: red;}
+#Bsc.(Hons)in Supply Chain Management {background-color: green;}
+#Bsc.(Hons)in Tourism &Hospitality Management {background-color: blue;}
+#Bsc.(Hons)in Business Managment {background-color: orange;}
+ 
+.container{
+position:relative;
+text-align:center;
+color:white;
+font-size:50px;
+}
+.centerd{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+
+
+p.d{
+background-color:black;
+color:white;
+text-align:center;
+font-size:25px;
+width:25;
+}
+table,th,td{
+border:1px solid black;}
+th,td{
+padding:5px;
+text-align:left;
+}
+p.m{
+background-color:lightblue;
+color:blue;
+text-align:center;
+font-size:30;
+}
+ p.i{
+background-color:pink;
+color:brown;
+
+}
+p.e{
+background-color:black;
+color:white;
+text-align:center;
+font-size:35px;
+width:25;
+} 
+h4{
+background-color:yellow;
+text-align:center;
+padding:50px;
+font-size:50px;
+}
+ 
+input[type=text], select{
+  width: 100%;
+  padding:25px;
+border:1px solid #ccc;
+border-radius:4px;
+resize:vertical;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 18px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color:#e0f7fa;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+ <h4>MONASH UNIVERSITY</h4>
+
+ 
+
+<ul><strong>
+<li>Bsc (Hons)in Business Managment</li>
+<li>Bsc (Hons)in Accounting And Finance</li>
+</strong>
+</ul>
+
+<p class="o">CLICK ON ANY COURSE TAB FOR GET MORE INFORMATION</p>
+
+ <button class="tablink" onclick="openPage('Bsc(Hons)in Business Managment', this , 'red')">Bsc(Hons)in Business Managment</button>
+<button class="tablink" onclick="openPage('Bsc(Hons)in Accounting And Finance', this, 'green')"> Bsc (Hons)in Accounting And Finance</button>
+
+
+ <div id="Bsc(Hons)in Business Managment" class="tabcontent">
+<br><br><br><br><br><br><br>
+  <p class="r">Bsc(Hons)in Business Managment</p>
+<br>
+<u>Year 1</u><br><br><br></u>
+<li>MGF1010 Introduction to management</li>
+ <li>Business strateg</li>
+<li>Leadership principles and practices</li>
+ <li>Managing conflict</li>
+<li>International business</li>
+<li>Human resource management</li>
+<li>Corporate social responsibility and business ethics</li>
+<li>Managerial communication</li>
+</ul>
+<br>
+
+
+<u>Year 2</u><br><br><br>
+
+<li>HRM and managing global workforces</li>
+<li>Business and Bachelor of Arts</li>
+<li>Business and Bachelor of Business Specialist 1</li>
+<li>Business and Bachelor of Business Specialist 2</li>
+<li>Business and Bachelor of Information Technology</li>
+</ul>
+<br>
+
+<u>Year 3</u><br><br><br>
+<li>Design and Bachelor of Business 1</li>
+<li>Fine Art and Bachelor of Business 1</li>
+<li>THM 31033-Event Management</li>
+<li>THM 31043-Catering Technology and Management</li>
+<li>Design and Bachelor of Business 2</li>
+<li>Fine Art and Bachelor of Business 2</li>
+</ul>
+<br>
+ 
+<p class="f"  >COURSE FEES</p>
+Year1- LKR 5000,00<br>
+Year2- LKR 5000,00 <br>
+Year3- LKR 5000,00<br>
+</p>
+
+<p class="f"  >ENTRY REQUIREMENTS</p>
+<p > Those who have passed GCE O/L examination with three (ALL) passes with English,mathamatics (THIS IS COMPULSORY) or <br>Those who have passed GCE O/L examination with three (ALL) passes for any three subjects<br>any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edexcel/Cambridge with three (03) passes 
+<br>
+Fluent in English Language</p>
+
+<p class="f"  >JOB  OPPORTUNITIES</p>
+<p >
+This degree offers you job opportunities as management executives with;<br>
+Event management<br>
+Manufacturing organization<br>
+Services and marketing firms<br>
+</p>  
+</div>
+
+<div id="Bsc(Hons)in Accounting And Finance" class="tabcontent">
+<br><br><br><br><br><br><br>
+<p class="r">Bsc(Hons)in Accounting And Finance</p>
+<br>
+
+<u>Year 1</u><br><br><br></u>
+ <li>ACX4000 Research methods </li>
+<li>ACX4018 Honours research </li>
+<li>ACX4040 Issues in accounting information system</li>
+<li>ACX4050 Issues in auditing and assurance </li>
+<li>ACX4070 Issues in financial accounting</li>
+<li>ACX4090 Issues in management accounting</li>
+ </ul>
+<br>
+
+<u>Year 2</u><br><br><br>
+
+ <li>BFX4000 Research methods</li>
+<li>BFX4018 Honours research</li>
+ <li>BFX4030 Advanced modelling in finance</li>
+<li>BFX4060 Issues in corporate finance</li>
+</ul>
+<br>
+<u>Year 3</u><br><br><br>
+
+  <li>BFX4080 Issues in banking 1</li>
+<li>BFX4120 Issues in investments 1 </li>
+<li>BFX4080 Issues in banking 2 </li>
+<li>BFX4120 Issues in investments 2 </li>
+</ul>
+<br>
+ 
+<p class="f"  >COURSE FEES</p>
+<p  >Year1- LKR 5000,00<br>
+Year2-LKR 5000,00<br>
+Year3- LKR 5000,00 <br></p>
+
+<p class="f"  >ENTRY REQUIREMENTS</p>
+<p > Those who have passed GCE O/L examination with three (ALL) passes with English,mathamatics (THIS IS COMPULSORY) or <br>Those who have passed GCE O/L examination with three (ALL) passes for any three subjects<br>any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edexcel/Cambridge with three (03) passes 
+<br>
+Fluent in English Language</p>
+
+<p class="f"  >JOB  OPPORTUNITIES</p>
+<p >
+This degree offers you job opportunities as management executives with;<br>
+Accounting management<br>
+Finance management<br>
+Services and marketing firms<br>
+ Banking<br>
+</p>  
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on
+it
+document.getElementById("defaultOpen").click();
+</script><br><br><br>
+   
+    </body>
+</html>
+
+

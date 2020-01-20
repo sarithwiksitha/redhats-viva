@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    margin-top: 0px;
+ font-family: sans-serif;
+} 
+
+header {
+    width:50px;
+    height:10px;
+
+
+
+
+}
+
+header * {
+    
+    height:250px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 60px;
+
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 5em;
+}
+
+section h4 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 4em;
+}
+
+
+header a {
+    text-decoration: bold;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('WhatsApp Image 2020-01-07 at 2.27.22 PM.jpeg');
+}
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images.jfif');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('campus-life.jpg');
+}
